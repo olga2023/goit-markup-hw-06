@@ -291,7 +291,7 @@
 </section>
     </main>
 <footer class="section-footer"> 
-    <div class="footer-all">
+    <div class="footer-all container">
     <div class="container-adress">
 <a class="link-footer" href="/">Web<span class="logo-second-footer">Studio</span></a>
 <address>
@@ -336,23 +336,19 @@
     </ul>
     </div>
 
-<form name="subs-footer">
-    <div class="subs-footer-one">
-        <div class="subs-footer-two">
-            <label class="subs-label" for="write-mail">Підпишіться на розсилку</label>
-        <input class="subs-input" type="email" id="write-mail" name="write-mail" placeholder="E-mail">
-        </div>
-        <div>
-            <button type="submit" class="footer-button">
+<form name="subs-footer" class="subs-footer-one">
+         <div class="subs-footer-two">
+             <label class="subs-label" for="write-mail">Підпишіться на розсилку</label>
+         <input class="subs-input" type="email" id="write-mail" name="write-mail" placeholder="E-mail">
+         </div>
+        <button type="submit" class="footer-button">
                 Підписатися
-                <svg class="subs-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-            </button>
-            </form>
+        <svg class="subs-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-icon-send"></use>
+        </svg>
+    </button>
+</form>
             </div>
-        </div>
-    </div>
 
     </footer>
    
@@ -363,7 +359,7 @@
             <use href="./images/icons.svg#icon-vector"></use>
         </svg>
     </button>
-    <h3 class="title-form">Залиште свої дані, ми вам передзвонимо</h3>
+    <p class="title-form">Залиште свої дані, ми вам передзвонимо</p>
     
 <form name="contact-form">
     <label class="form-label" for="persone-name">Ім'я</label>
@@ -406,7 +402,7 @@ name="persone-comment"
 placeholder="Введіть текст">
 </textarea>
 
-<div class="checkbox-conteiner">
+
 <label class="checkbox-label" 
 for="terms-checkbox">
 <input 
@@ -414,14 +410,13 @@ class="checkbox-input visually-hidden"
 id="terms-checkbox" 
 type="checkbox" 
 name="terms-checkbox">
-<div class="checkbox-icon">
+<span class="checkbox-icon">
     <svg class="icon-checkbox" width="16" height="15">
         <use href="./images/icons.svg#icon-vector2"></use>
     </svg>
-</div>
+</span>
 Погоджуюся з розсилкою та приймаю<a href="#" class="license-link">Умови договору</a>
 </label>
-</div>
 <button type="submit" class="button-form">Відправити</button>
 </form>
 </div>
